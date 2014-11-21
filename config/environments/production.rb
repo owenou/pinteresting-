@@ -83,5 +83,5 @@ Rails.application.configure do
 
     # Required for Huroke
     # Note to set this up to actual host 
-  config.action_mailer.default_url_options = { host: 'pacific-meadow-4399.herokuapp.com'}
+  config.action_mailer.default_url_options = { host: 'intense-inlet-1348.herokuapp.com'}
 end
