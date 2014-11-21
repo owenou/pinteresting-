@@ -80,4 +80,8 @@ Rails.application.configure do
 
   # Do not dump schema after migrations.
   config.active_record.dump_schema_after_migration = false
+
+    # Required for Huroke
+    # Note to set this up to actual host 
+  config.action_mailer.default_url_options = { host: 'pacific-meadow-4399.herokuapp.com'}
 end
